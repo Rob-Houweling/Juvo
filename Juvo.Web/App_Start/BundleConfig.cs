@@ -35,7 +35,9 @@ namespace Juvo.Web
 
 
             bundles.Add(new ScriptBundle("~/bundles/juvo")
-                .Include("~/Scripts/juvo.js"));
+                .Include("~/Scripts/juvo/models/*.js")
+                .Include("~/Scripts/juvo/views/*.js")
+                .Include("~/Scripts/juvo/*.js"));
         }
     }
 }

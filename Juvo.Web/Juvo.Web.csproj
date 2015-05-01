@@ -164,7 +164,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\juvo.ts" />
+    <TypeScriptCompile Include="Scripts\juvo\Juvo.ts" />
+    <TypeScriptCompile Include="Scripts\juvo\models\Widget.ts" />
+    <TypeScriptCompile Include="Scripts\juvo\views\HomeView.ts" />
+    <TypeScriptCompile Include="Scripts\juvo\views\WidgetView.ts" />
     <TypeScriptCompile Include="Scripts\typings\backbone\backbone.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\marionette\marionette.d.ts" />
